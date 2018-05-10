@@ -42,7 +42,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(452, 112);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 28);
+            this.button1.Size = new System.Drawing.Size(121, 22);
             this.button1.TabIndex = 1;
             this.button1.Text = "Dodaj Takmicara";
             this.button1.UseVisualStyleBackColor = true;
@@ -66,13 +66,14 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Items.AddRange(new object[] {
-            "Mac",
-            "Floret",
-            "Sablja"});
+            "Epee",
+            "Foil",
+            "Sabre"});
             this.listBox1.Location = new System.Drawing.Point(364, 23);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(70, 43);
             this.listBox1.TabIndex = 5;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // listBox2
             // 
@@ -113,7 +114,7 @@
             this.listBox3.FormattingEnabled = true;
             this.listBox3.Location = new System.Drawing.Point(12, 13);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(272, 316);
+            this.listBox3.Size = new System.Drawing.Size(284, 329);
             this.listBox3.TabIndex = 9;
             // 
             // Form1
